@@ -108,7 +108,7 @@ const ProfilePage = () => {
             }
           </Row>
 
-          <hr className='hr-new-2'/>
+          <hr className='hr-new'/>
 
           <h4 className='mb-3 work-org-head'>Organizational Experience</h4>
           <Row className='mb-5'>

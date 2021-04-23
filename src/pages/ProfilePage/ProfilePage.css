@@ -11,11 +11,11 @@
   flex-direction: column;
 }
 
-.hr, .hr-new, .hr-new-2{
+.hr, .hr-new{
   border: 1px solid #4582ec;
 }
 
-.hr-new, .hr-new-2{
+.hr-new{
   display: none;
 }
 
@@ -92,10 +92,6 @@
     margin-bottom: 2rem;
   }
 
-  .hr-new-2{
-    display: block;
-    margin-bottom: 2rem;
-  }
 }
 
 @media screen and (max-width: 575.98px) {
