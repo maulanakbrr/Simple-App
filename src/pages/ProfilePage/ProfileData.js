@@ -17,7 +17,7 @@ const ProfileData = {
       job: 'Assistant Lecturer of Informatics Engineering Faculty',
       employer: 'Telkom University',
       duration: 'Jan 2017 - May 2017',
-      description: 'Help lecturer to deliver learning materials to college students and Responsible for program assignment report.'
+      description: 'Help lecturer to deliver learning materials to college students and responsible for program assignment report.'
     }
   ],
   

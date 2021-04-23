@@ -6,7 +6,7 @@ import './HomePage.css';
 const HomePage = () => {
   return (
     <Container className='home-container'>
-      Homepage
+      <h1>Simple App</h1>
     </Container>
   )
 }

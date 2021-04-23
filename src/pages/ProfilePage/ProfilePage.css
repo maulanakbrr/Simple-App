@@ -11,8 +11,12 @@
   flex-direction: column;
 }
 
-.hr{
+.hr, .hr-new, .hr-new-2{
   border: 1px solid #4582ec;
+}
+
+.hr-new, .hr-new-2{
+  display: none;
 }
 
 /* work and organizational section */
@@ -58,4 +62,57 @@
   font-size: .85rem;
   font-weight: bold;
   margin-bottom: 0;
+}
+
+/* media screen sizing */
+
+@media screen and (max-width: 767.98px) {
+  
+  /* profile section */
+
+  .profile-title{
+    font-size: 1.8rem;
+  }
+
+  .profile-job{
+    font-size: 1.4rem;
+    margin-bottom: .4rem;
+  }
+
+  /* work and organizational exp */
+
+  .work-org-head{
+    text-align: center;
+  }
+
+  /* hr */
+
+  .hr-new{
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .hr-new-2{
+    display: block;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  
+  /* profile section */
+
+  .profile-img-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-img{
+    width: 60%;
+  }
+
+  .profile-title, .profile-job{
+    text-align: center;
+  }
 }
