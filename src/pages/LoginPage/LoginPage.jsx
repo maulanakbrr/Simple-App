@@ -14,7 +14,7 @@ const LoginPage = () => {
 
   return (
     <Container className='form-container'>
-      <h2 className='mb-4'>Sign in to Simple App</h2>
+      <h2 className='mb-4 login-title'>Sign in to Simple App</h2>
       <div className='form-box p-4'>
 
         <Form onSubmit={handleSubmit}>
