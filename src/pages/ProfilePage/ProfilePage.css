@@ -1,0 +1,61 @@
+.profile-container{
+  min-height: 100vh;
+  margin-top: 3.55rem;
+}
+
+/* profile description */
+
+.profile-desc{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.hr{
+  border: 1px solid #4582ec;
+}
+
+/* work and organizational section */
+
+.work-organizational-section{
+  border: 1px solid #4582ec;
+  border-radius: 1rem;
+}
+
+/* contact section */
+
+.contact-info{
+  font-size: .85rem;
+}
+
+.contact-info > a{
+  color: #000;
+  font-size: .85rem;
+}
+
+.contact-info > a:hover{
+  color: #4582ec;
+  text-decoration: none;
+}
+
+/* education, skills, and certificates section */
+.edu-degree, .skill-title{
+  font-size: .9rem;
+  font-weight: bold;
+  margin-bottom: .3rem;
+}
+
+.edu-place, .skill-name, .certi-name{
+  font-size: .85rem;
+  margin-bottom: .3rem;
+}
+
+.certi-name{
+  margin-bottom: .4rem;
+}
+
+.edu-gpa{
+  font-size: .85rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
