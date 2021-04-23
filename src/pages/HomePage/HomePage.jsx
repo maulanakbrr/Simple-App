@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Container } from 'react-bootstrap';
+
+import './HomePage.css';
 
 const HomePage = () => {
   return (
-    <div>
+    <Container className='home-container'>
       Homepage
-    </div>
+    </Container>
   )
 }
 
