@@ -1,4 +1,4 @@
-import { lazy, Suspense } from 'react';
+import { Suspense } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Header from './components/Header/Header';
@@ -8,9 +8,9 @@ import Loader from './components/Loader/Loader';
 
 import './App.css';
 
-const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
-const ProfilePage = lazy(() => import('./pages/ProfilePage/ProfilePage'));
-const LoginPage = lazy(() => import('./pages/LoginPage/LoginPage'));
+import HomePage from './pages/HomePage/HomePage';
+import ProfilePage from './pages/ProfilePage/ProfilePage';
+import LoginPage from './pages/LoginPage/LoginPage';
 
 const App = () => {
   return (
