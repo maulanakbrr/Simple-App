@@ -14,7 +14,7 @@ const ProfilePage = () => {
       
       <Row className='pt-5 mb-5'>
         <Col md={3} sm={6} xs={12} className='profile-img-container'>
-          <Image src={process.env.PUBLIC_URL + '/images/profile.jpg'} rounded fluid className='profile-img'/>
+          <Image src={process.env.PUBLIC_URL + '/images/profile-2.jpg'} rounded fluid className='profile-img'/>
         </Col>
 
         <Col md={9} sm={6} xs={12} className='profile-desc'>

@@ -27,6 +27,12 @@ const Header = () => {
                 Login
               </Nav.Link>
             </LinkContainer>
+
+            
+            <Nav.Link href={process.env.PUBLIC_URL + '/cv/CV_Portfolio_Akbar Maulana.pdf'} download>
+              My CV
+            </Nav.Link>
+            
           </Nav>
             
         </Navbar.Collapse>
