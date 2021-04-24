@@ -4,7 +4,7 @@ import axios from 'axios';
 
 import './HomePage.css';
 
-const HomePage = () => {
+const HomePage = ({history}) => {
   const [homeData, setHomeData] = useState([]);
 
   useEffect(() => {
@@ -67,7 +67,7 @@ const HomePage = () => {
           <h4 className='join-title text-center'>Share with Us!</h4>
           <p className='text-center'>Do you want your story published here? Join with us here! </p>
           <div style={{ textAlign: 'center'}}>
-            <Button className='join-btn'>Sign In</Button>
+            <Button className='join-btn' onClick={() => history.push('/login')}>Sign In</Button>
           </div>
         </div>
       </div>
