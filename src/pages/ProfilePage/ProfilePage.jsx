@@ -33,27 +33,27 @@ const ProfilePage = () => {
               <h6>Contact</h6>
               <div>
                 <div>
-                  <i class="far fa-envelope"></i>
+                  <i className="far fa-envelope"></i>
                   <span className='contact-info'> amaulanaa995@gmail.com</span>
                 </div>
 
                 <div>
-                  <i class="fas fa-phone-square-alt"></i>
+                  <i className="fas fa-phone-square-alt"></i>
                   <span className='contact-info'> (+62) 822 9910 0294</span>
                 </div>
 
                 <div>
-                  <i class="fab fa-github-square"></i>
+                  <i className="fab fa-github-square"></i>
                   <span className='contact-info'> <a href="https://github.com/maulanakbrr" target="_blank" rel="noopener noreferrer">github.com/maulanakbrr</a></span>
                 </div>
 
                 <div>
-                  <i class="fas fa-globe"></i>
+                  <i className="fas fa-globe"></i>
                   <span className='contact-info'> <a href="https://mlbr.herokuapp.com" target="_blank" rel="noopener noreferrer">mlbr.herokuapp.com</a></span>
                 </div>
 
                 <div>
-                  <i class="fab fa-linkedin"></i>
+                  <i className="fab fa-linkedin"></i>
                   <span className='contact-info'> <a href="https://www.linkedin.com/in/amaulanaa/" target="_blank" rel="noopener noreferrer">linkedin.com/in/amaulanaa</a></span>
                 </div>
               </div>
