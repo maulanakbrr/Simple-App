@@ -19,4 +19,18 @@
 
 .error-img-text {
   font-size: 1.2rem;
+  width: 70%;
+  text-align: center;
 }
+
+@media screen and (max-width: 575.98px ) {
+  .error-img-container {
+    width: 20vh;
+    height: 20vh;
+  }
+
+  .error-img-text {
+    font-size: 1rem;
+  }
+}
+
