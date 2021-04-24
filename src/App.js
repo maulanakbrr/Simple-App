@@ -1,5 +1,6 @@
 import { Suspense } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// import { HashRouter as Router } from 'react-router-dom';
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -14,7 +15,7 @@ import LoginPage from './pages/LoginPage/LoginPage';
 
 const App = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename='/'>
       <Header/>
       <Switch>
         <ErrorBoundary>
