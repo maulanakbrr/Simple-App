@@ -14,7 +14,7 @@ import LoginPage from './pages/LoginPage/LoginPage';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header/>
       <Switch>
         <ErrorBoundary>
